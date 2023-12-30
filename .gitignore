@@ -1,0 +1,5 @@
+practice38_1.a
+*.a
+*.[ab]
+data
+!practice38_1.a
