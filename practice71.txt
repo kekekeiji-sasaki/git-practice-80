@@ -1,3 +1,0 @@
-local main branch
-practice71
-practice71
