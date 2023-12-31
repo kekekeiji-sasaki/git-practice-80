@@ -1,0 +1,13 @@
+name: sample-workflow
+on:
+  push:
+    branches: [master]
+
+jobs:
+  job1:
+    runs-on: ununtu-latest
+    steps:
+    - name: checks-out your repository under %GITHUB_WORKSPACE
+      uses: actions/checkout@V2
+    - name: use echo command
+      run: echo "sample-workflow"
